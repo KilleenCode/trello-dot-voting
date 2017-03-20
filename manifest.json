@@ -1,11 +1,11 @@
 {
-  "name": "Static Template",
-  "description": "",
-  "details": "A static sample Power-Up hosted on GitHub pages. Feel free to fork [this repository](https://github.com/trello/power-up-template) as a starting point for your own Power-Up.",
+  "name": "Dot Voting",
+  "description": "A quick test by KilleenCode.",
+  "details": "A dot-voting powerup for trello cards.",
   "icon": {
     "url": "./images/logo.png"
   },
-  "author": "Trello Inc",
+  "author": "KilleenCode, LLC.",
   "capabilities": [
     "attachment-sections",
     "attachment-thumbnail",
