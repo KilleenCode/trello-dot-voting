@@ -194,7 +194,13 @@ TrelloPowerUp.initialize({
       icon: WHITE_ICON,
       text: 'Template',
       callback: boardButtonCallback
-    }];
+    },
+    {
+      icon: './images/incorrect.png',
+      text: '2 Votes',
+      callback: boardButtonCallback
+    }
+    ];
   },
   'card-badges': function(t, options){
     return getBadges(t);
