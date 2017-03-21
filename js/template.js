@@ -138,6 +138,9 @@ var cardButtonCallback = function(t){
 };
 
 TrelloPowerUp.initialize({
+  'render': function(renderer){
+    console.log('something is rendering');
+  },
   'attachment-sections': function(t, options){
     // options.entries is a list of the attachments for this card
     // you can look through them and 'claim' any that you want to
